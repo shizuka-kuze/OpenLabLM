@@ -7,16 +7,20 @@ This repo is an implementation of an LLM, like ChatGPT, in a single, hackable, d
 ## Demo
 
 *Training and Validation Conducted with Tiny Shakespeare on a single consumer laptop GPU*
+1) Each epoch takes around 10 seconds!
+2) After a few epchs results look decent!
+3) First epoch is the slowest due to cold start.
 
-## Contributing
+https://github.com/user-attachments/assets/0485e4fe-2cda-49ad-9e4b-20c81208abc7
 
-**The top upvoted comment will be added at the end of every day!!**
-
-Contributions through pull requests are welcome too.
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `Code of Conduct`.
+#### Run the Code
+```bash
+git clone https://github.com/shizuka-kuze/OpenLabLM.git
+cd OpenLabLM
+conda activate openlablm
+pip install -r requirements.txt
+python main.py
+```
 
 ## Features
 
@@ -29,6 +33,15 @@ The LLM uses minimal implementations of the following:
 - Data Loading, Validation, and Evaluation 
 - Support for many datasets!
 
+## Contributing
+
+**The top upvoted comment will be added at the end of every day!!**
+
+Contributions through pull requests are welcome too.
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `Code of Conduct`.
 #### Ethics
 
 This project is contingent on the ideas of advancing the pursuit of human knowledge through free, open-source, and accountable software. Transparency is provided through available, non-obfuscated code that anyone can run.
@@ -36,14 +49,6 @@ This project is contingent on the ideas of advancing the pursuit of human knowle
 #### Motivation
 We hope to expand community knowledge and cooperation, and demonstrate the advantage of open projects.
 
-#### Run the Code
-```bash
-git clone https://github.com/shizuka-kuze/OpenLabLM.git
-cd OpenLabLM
-conda activate openlablm
-pip install -r requirements.txt
-python main.py
-```
 #### Copyright and Data Usage
 The datasets used are a mix of real and synthetic data designed specifically for LLM training. Particularly: 
 
@@ -56,5 +61,6 @@ The datasets used are a mix of real and synthetic data designed specifically for
 - 12/13/25 Initial Barebones Commit
 
 ## Contact 
+
 
 For contact or coordination email deepseoul@proton.me or join our [Slack channel.]()
