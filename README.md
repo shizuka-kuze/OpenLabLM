@@ -8,7 +8,7 @@ This repo is an implementation of an LLM, like ChatGPT, in a single, hackable, d
 
 *Training and Validation Conducted with Tiny Shakespeare on a single consumer laptop GPU*
 1) Each epoch takes around 10 seconds!
-2) After a few epchs results look decent!
+2) After a few epochs results look decent!
 3) First epoch is the slowest due to cold start.
 
 https://github.com/user-attachments/assets/0485e4fe-2cda-49ad-9e4b-20c81208abc7
@@ -63,4 +63,4 @@ The datasets used are a mix of real and synthetic data designed specifically for
 ## Contact 
 
 
-For contact or coordination email deepseoul@proton.me or join our [Slack channel.]()
+For contact or coordination please use the [discussions tab](https://github.com/shizuka-kuze/OpenLabLM/discussions) for direct help email deepseoul@proton.me or join our [Slack channel.]()
